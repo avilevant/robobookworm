@@ -3,7 +3,7 @@ import BookInfo from "../components/typeRef/bookInfo";
 class BookEditionsApi {
   static GetAllEditions = async () => {
     const res = await fetch(
-      process.env.REACT_APP_BOOK_SERVICE_URL + "/BookEditions"
+      process.env.REACT_APP_BOOK_SERVICE_URL + "/BookEditions.json"
     );
     return await res.json();
   };
