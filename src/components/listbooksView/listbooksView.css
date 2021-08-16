@@ -1,0 +1,26 @@
+.bookImg {
+    height: 170px;
+    width: 105px;
+    display: flex;
+    box-shadow: 5px 5px 10px rgb(161, 161, 170);
+    transition: all 0.3s ease-in-out;
+}
+
+.bookView {
+    padding: 30px;
+    margin: 10px;
+    text-align: right;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.bookImg:hover {
+    transform: scale(1.1);
+    box-shadow: 7px 7px 5px rgb(161, 161, 170);
+}
+
+.bookName {
+    font-size: 12px;
+    padding-top: 5px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

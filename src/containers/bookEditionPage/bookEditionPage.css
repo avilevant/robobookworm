@@ -1,0 +1,10 @@
+.returnToSearchButton {
+    margin: 30px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+}
+
+.returnToSearchButton:hover {
+    margin: 30px;
+}
